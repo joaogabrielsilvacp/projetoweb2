@@ -1,0 +1,200 @@
+/* Estilos CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  h1,
+  h2 {
+    margin: 0;
+  }
+  
+  #cadastro {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #cadastroForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  #cadastroForm label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  #materialInput,
+  #dica {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #4d1e1e;
+  }
+  
+  #lista {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #filtro {
+    margin-bottom: 20px;
+    margin-top: 25px;
+  }
+  
+  #filtro label,
+  #filtro input[type="text"],
+  #btnFiltrar {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  
+  #materialFiltroInput {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #btnFiltrar {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #listaDicas {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  #listaDicas li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #listaDicas li.plastico {
+    border-left: 5px solid #ff0000;
+  }
+  
+  #listaDicas li.metal {
+    border-left: 5px solid #f5e504;
+  }
+  
+  #listaDicas li.papel {
+    border-left: 5px solid #2196f3;
+  }
+  
+  #listaDicas li.vidro {
+    border-left: 5px solid #0af712;
+  }
+  
+  #listaDicas li.organico {
+    border-left: 5px solid #613715;
+  }
+  
+  #listaDicas li button {
+    margin-left: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  #coleta {
+    padding: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  #coleta h2 {
+    margin-bottom: 10px;
+  }
+  
+  #coleta p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #coleta ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #coleta li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #coleta li.plastico {
+    border-left: 5px solid #ff0000;
+  }
+  
+  #coleta li.metal {
+    border-left: 5px solid #f3f705;
+  }
+  
+  #coleta li.papel {
+    border-left: 5px solid #008cff;
+  }
+  
+  #coleta li.vidro {
+    border-left: 5px solid #00ff08;
+  }
+  
+  #coleta li.organico {
+    border-left: 5px solid #49240c;
+  }
+  
+  #coleta li button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .error {
+    border-color: red;
+  }

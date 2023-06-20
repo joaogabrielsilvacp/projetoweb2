@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>RECICLAGEM</title>
+  <link rel="stylesheet" type="text/css" href="styless.css">
+</head>
+
+<body>
+  <header>
+    <h1>Faça sua parte e registre uma dica para ajudar ao próximo a reciclar.</h1>
+  </header>
+
+  <section id="cadastro">
+
+    <form id="cadastroForm">
+      <label for="material">Digite o nome do material para registrar a dica <br>(Plástico, metal, papel, vidro e orgânico):</label>
+      <input type="text" id="materialInput" placeholder="Digite o material" required>
+
+      <label for="dica">Escreva abaixo a dica que deseja cadastrar:</label>
+      <textarea id="dica" rows="4" cols="50" placeholder="Digite a dica" required></textarea>
+
+      <button type="submit">Cadastrar Dica</button>
+    </form>
+  </section>
+
+  <section id="lista">
+    <h2>Lista de Dicas Cadastradas:</h2>
+
+    <div id="filtro">
+      <label for="materialFiltro">Filtrar por Material:</label>
+      <input type="text" id="materialFiltroInput" placeholder="Digite o material">
+      <button id="btnFiltrar">Filtrar</button>
+    </div>
+
+    <ul id="listaDicas"></ul>
+  </section>
+
+  <section id="coleta">
+    <h2>Horários de Coleta</h2>
+
+    <button id="btnHorariosColeta">Exibir Horários de Coleta</button>
+    <ul id="horariosColeta"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
